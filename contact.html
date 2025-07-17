@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sambek Roofing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo.ico" type="images/logo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Contact Page Specific Styles */
+.contact-header {
+    position: relative;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-hero {
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.contact-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-page {
+    padding-bottom: 0;
+}
+
+.contact-section {
+    padding: 5rem 0;
+}
+
+.map-section {
+    margin-top: 3rem;
+}
+
+.contact-map {
+    width: 100%;
+    height: 500px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contact-cta {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-cta h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.contact-cta p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive Styles for Contact Page */
+@media (max-width: 768px) {
+    .contact-header {
+        height: 300px;
+    }
+    
+    .contact-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .contact-hero p {
+        font-size: 1rem;
+    }
+    
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .contact-info {
+        margin-bottom: 3rem;
+    }
+    
+    .contact-map {
+        height: 350px;
+    }
+    
+    .contact-cta {
+        padding: 3rem 1.5rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Header/Navbar (Same as index.html) -->
+    <header id="home" class="contact-header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/ROOFING LOGO.png" alt="Sambek Roofing Logo" class="logo-img">
+                </a>
+                
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                    <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="index.html#consultation" class="nav-link cta-button">Free Estimate</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="contact-hero">
+            <h1>Get In Touch</h1>
+            <p>We're here to answer your roofing questions and provide expert advice</p>
+        </div>
+    </header>
+
+    <!-- Main Contact Content -->
+    <main class="contact-page">
+        <section class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Our Roofing Experts</h2>
+                    <p class="section-subtitle">Reach out for a free consultation or to schedule an inspection</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                 <h4>Factory Location</h4>
+                            <p>Tema Comm. 12, Behind Tema<br>General Hospital</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-text">
+                            <h4>Call Us</h4>
+                            <p>Office: (233) 244 869 240<br>Office: (233) 266 500 048</p>
+                        </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                              <div class="info-text">
+                            <h4>Email Us</h4>
+                            <p>sambekroofs@gmail.com<br>sammybekoe@yahoo.com</p>
+                        </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday-Friday: 8am - 6pm<br>Saturday: 9am - 2pm<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-yelp"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="contactName" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="contactEmail" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="contactPhone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="contactService">
+                                    <option value="">Select a Service</option>
+                                    <option value="installation">Roof Installation</option>
+                                    <option value="repair">Roof Repair</option>
+                                    <option value="inspection">Roof Inspection</option>
+                                    <option value="gutter">Gutter Services</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contactMessage" placeholder="How can we help you?" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Full Width Map Section -->
+        <section class="map-section">
+            <div class="contact-map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15881.036924127753!2d-0.043260759520490834!3d5.6756154606615326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf80ee495d06a9%3A0xc34d45392503e2d0!2sTema%20General%20Hospital!5e0!3m2!1sen!2sgh!4v1750457053447!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <!-- Call to Action Section -->
+       <!--  <section class="contact-cta">
+            <div class="container">
+                <h2>Ready to Start Your Roofing Project?</h2>
+                <p>Schedule your free, no-obligation estimate today</p>
+                <a href="#" class="btn btn-primary">Request Free Estimate</a>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="var(--primary-color)"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="var(--primary-color)"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="var(--primary-color)"></path>
+            </svg>
+        </div>
+        
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col footer-about">
+                        <div class="logo">
+                            <img src="images/ROOFING LOGO.png" alt="Sambek Roofing Logo" class="logo-img">
+                            <span>Sambek <span class="highlight">Roofing</span></span>
+                        </div>
+                        <p>Your trusted roofing experts since 2010. Quality craftsmanship and exceptional customer service for residential and commercial projects.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="index.html#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="index.html#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="index.html#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                            <li><a href="index.html#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Our Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Roof Installation</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Roof Repairs</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Gutter Systems</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Waterproofing</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Roof Inspections</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Emergency Services</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col footer-contact">
+                        <h4>Contact Info</h4>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Comm.12, Behind Tema General Hospital</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>(233) 244 869 240</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>sambekroofs@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Mon-Fri: 8am - 6pm</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        &copy; 2025 Sambek Roofing. All Rights Reserved.
+                    </div>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Licenses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating CTA Button (Mobile) -->
+        <a href="tel:+233244869240" class="floating-cta">
+            <i class="fas fa-phone"></i>
+            <span>Call Now</span>
+        </a>
+    </footer>
+
+    <!-- Form Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. We'll contact you shortly.</p>
+            <button class="btn btn-primary close-modal-btn">OK</button>
+        </div>
+    </div>
+        <!-- Scroll to Top Button -->
+<a href="#home" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
