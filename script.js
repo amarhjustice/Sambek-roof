@@ -793,7 +793,7 @@ const serviceImages = {
         'images/out4.jpg',
         
     ],
-    'metal-tussing': [
+    'metal-tusses': [
         'images/Metal_Tusses.jpg',
         
         'images/ware2.jpg',
@@ -816,7 +816,7 @@ const serviceTitles = {
     'roof-installation': 'Roof Installation Projects',
     'roof-repairs': 'Roof Repairs or Replacement Projects',
     'gutter-systems': 'Gutter Systems Projects',
-    'metal-tussing': 'Metal Tussing Projects',
+    'metal-tusses': 'Metal Tusses Projects',
     'pergola': 'Pergola Projects',
     'cladding': 'Cladding Projects'
 };
